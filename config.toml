@@ -1,0 +1,40 @@
+baseurl                  = "https://tridactyl.xyz/"           # Your domain name. Must end with "/"
+languageCode             = "en-gb"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Tridactyl - a vim-like Firefox WebExtension"
+theme                    = "sam"
+pygmentsStyle            = "native" #"monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 GMT"
+    favicon              = "" # "sam.ico" # Todo: replace this with Tridactyl icon
+    homepage             = "home"                           # What to call the home page link
+    footerText           = "Tridactyl - this site is licensed under BSD-3 - source available at [GitHub](https://github.com/tridactyl/site)"
+
+# Metadata for Open Graph and Twitter
+    description          =  "Tridactyl - a vim-like Firefox WebExtension"              # Max 160 characters show in search results
+    images               = [] #["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Tridactyl - a vim-like Firefox WebExtension"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "what is tridactyl?"
+
+[[params.mainMenu]]
+    link = "/testimonials"
+    text = "testimonials"
+
+[[params.mainMenu]]
+    link = "/chat"
+    text = "talk to us"
+
+[[params.mainMenu]]
+    link = "/ideas"
+    text = "google summer of code ideas page"
+
+[imaging]
+    quality = 75
