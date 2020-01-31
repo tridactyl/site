@@ -114,6 +114,30 @@ Prerequisites:
 
 Potential mentors: saulrh, bovine3dom
 
+### Lazy iframe injection
+
+The way we inject our iframe which contains our command line and most of our interface currently [breaks quite a few websites](https://github.com/tridactyl/tridactyl/issues/639). We should instead insert it only when it is required. We attempted this [about a year ago](https://github.com/tridactyl/tridactyl/pull/1331) but ran into an issue where the command had to be executed twice to work.
+
+Challenges:
+
+- There is a race condition somewhere (which is always lost) which prevents the iframe from being displayed until it is asked for a second time
+
+- Tridactyl is a large project; we don't know how many (if any) parts of it rely on the iframe being present on each page
+
+Rewards:
+
+- Fix the issue that prevents Tridactyl from working on quite a few pages
+
+- Experience with debugging race conditions in real-world asynchronous code
+
+Prerequisites:
+
+- Some experience with a programming language
+
+- Some experience with asynchronous code
+
+Potential mentors: bovine3dom, glacambre, saulrh
+
 ## Just for fun
 
 ### Gamepadactyl
