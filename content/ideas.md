@@ -163,7 +163,7 @@ Rewards:
 
 Prerequisites:
 
-- Knowledge of Java
+- In-depth knowledge of C++
 
 - Willingness for a project to "fail"
 
