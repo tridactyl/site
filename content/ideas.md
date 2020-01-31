@@ -192,3 +192,7 @@ Prerequisites:
 - Willingness for a project to "fail"
 
 Potential mentors: saulrh, bovine3dom, cmcaine
+
+## Your own idea!
+
+We'd be delighted to hear from students who have an idea completely of their own. Be sure to [contact us first](/chat/) to get a feel for how achievable we think your idea is. You might also wish to look at the [GitHub issue where we came up with the ideas that made this page](https://github.com/tridactyl/tridactyl/issues/2107) or any of our [GitHub issues](https://github.com/tridactyl/tridactyl/issues/).
