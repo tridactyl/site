@@ -6,11 +6,11 @@ draft: false
 
 Tridactyl is a big project with lots of interesting areas where students could make a contribution. This page lists some of the ideas the maintainers have had. Most of them are projects we ourselves would like to undertake but have not had the time to dedicate to them.
 
-# Challenging
+## Challenging
 
 The following few projects would be quite challenging (and proportionately rewarding).
 
-## Port Tridactyl to other browsers
+### Port Tridactyl to other browsers
 
 Google Chrome has many more users than Firefox. We could get Tridactyl into the hands of many more people if we ported it to Chrome. Many browsers use the same (or similar) WebExtension API as Firefox and can be supported using [webextension-polyfill](https://github.com/mozilla/webextension-polyfill).
 
@@ -41,7 +41,7 @@ We briefly explored this in the past - this [pull request](https://github.com/tr
 
 Potential mentors: glacambre, saulrh, bovine3dom
 
-## Write a "Keyboard API" for Firefox
+### Write a "Keyboard API" for Firefox
 
 Tridactyl is a keyboard-driven interface for Firefox. The most common complaint amongst our users is that Tridactyl cannot accept commands while web pages are loading, while the Firefox UI is focused, or while a "privileged" page such as "about:preferences" is being used.
 
@@ -73,7 +73,7 @@ Prerequisites:
 
 Potential mentors: saulrh, glacambre, cmcaine, bovine3dom
 
-## Integrate a new parser into Tridactyl
+### Integrate a new parser into Tridactyl
 
 Tridactyl has its own rudimentary vim-style scripting language. The current design was not designed; it emerged as new features were added. It is therefore _bad_.
 
@@ -98,9 +98,9 @@ Prerequisites:
 - Some knowledge of parsers
 
 
-# Minor
+## Minor
 
-## Use TreeStyleTab's API
+### Use TreeStyleTab's API
 
 Another highly requested feature is to interoperate with TreeStyleTab. This would be a shorter task than the others. [There is already a PR](https://github.com/tridactyl/tridactyl/pull/1646) that goes some of the way to providing this. The main remaining work is to determine which sorts of features users would like and improve error handling.
 
@@ -114,9 +114,9 @@ Prerequisites:
 
 Potential mentors: saulrh, bovine3dom
 
-# Just for fun
+## Just for fun
 
-## Gamepadactyl
+### Gamepadactyl
 
 We have [an open pull request](https://github.com/tridactyl/tridactyl/pull/1814) that adds limited gamepad support to Tridactyl. After getting detection, hinting and text input to work well (for example, see Steam's Xbox 360 flower keyboard) with a decent theme it could turn Tridactyl into a good way of browsing the net on a big screen.
 
@@ -137,11 +137,11 @@ Prerequisites:
 Potential mentors: bovine3dom, glacambre
 
 
-# Moonshots
+## Moonshots
 
 The following project has a slim chance of success.
 
-## Port GeckoView to x86_64
+### Port GeckoView to x86_64
 
 GeckoView is Mozilla's answer to Chrome's WebView - it is a lightweight web browser that is intended to be embedded in Android applications. Given enough willpower, it could be ported to desktop computers with bindings written in a popular language (e.g. Python, or, as the maintainers would like, Julia). It could then serve as an alternative to Electron and Tridactyl could be ported to it. GeckoView itself already supports a subset of the WebExtension API so it could be somewhat straightforward.
 
