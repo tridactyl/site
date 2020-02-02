@@ -6,6 +6,19 @@ draft: false
 
 Tridactyl is a big project with lots of interesting areas where students could make a contribution. This page lists some of the ideas the maintainers have had. Most of them are projects we ourselves would like to undertake but have not had the time to dedicate to them.
 
+General prerequisites for all applicants:
+
+- Some experience of a programming language
+    - Tridactyl is predominantly written in TypeScript which is "JavaScript with extra bits". Almost none of our contributors wrote much in it before Tridactyl; you should not be concerned if you haven't either.
+
+Non-mandatory recommendations:
+
+- Some knowledge of Vim (e.g. [the openvim tutorials](https://www.openvim.com/)) or vim-like browser extensions (e.g. [Tridactyl for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/), [Vimium for Chrome](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) or [Qutebrowser](https://www.qutebrowser.org/)).
+
+- Some experience with Linux - building Tridactyl on Windows is possible via Cygwin or the Windows Subsystem for Linux but isn't recommended
+
+- Some experience with `git` and `Git{Hub,Lab}`
+
 ## Challenging
 
 The following few projects would be quite challenging (and proportionately rewarding).
