@@ -20,7 +20,7 @@ The Long Description may include [limited Markdown](https://developers.google.co
 
 > # A browser extension for programmers
 > 
-> Our extension for Firefox, Tridactyl, is used by about 10,000 users every day. It aims to make controlling Firefox more like controlling Vim, a popular text editor. We aim to make as much as possible within the browser programmable; our users have, for example, created keyboard shortcuts to clone a project they are viewing on GitHub and open a terminal in that directory.
+> Our extension for Firefox, Tridactyl, is used by about 10,000 users every day. It aims to make controlling Firefox more like controlling Vim, a popular text editor. We aim to make as much as possible within the browser programmable. Our users have, for example, created keyboard shortcuts to clone a project they are viewing on GitHub and open a terminal in that directory.
 > 
 > Our users are generally skilled programmers who want to have more control over their browser.
 
@@ -60,6 +60,10 @@ Enter tags that students can select (one) from and apply to their own proposals 
 > build process
 >
 > new webextension api
+>
+> moonshot
+>
+> something completely different
 
 ## Contact methods
 
