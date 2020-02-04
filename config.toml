@@ -33,6 +33,10 @@ pygmentsCodefences       = true
     text = "talk to us"
 
 [[params.mainMenu]]
+    link = "/newsletters"
+    text = "newsletters"
+
+[[params.mainMenu]]
     link = "/ideas"
     text = "google summer of code ideas page"
 
