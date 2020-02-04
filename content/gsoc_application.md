@@ -87,7 +87,7 @@ Enter tags that students can select (one) from and apply to their own proposals 
 
 ### Blog
 
-> (none)
+> http://tridactyl.xyz/newsletters/
 
 ---
 
