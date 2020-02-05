@@ -70,6 +70,8 @@ Challenges ahead:
 
 - API should be designed such that it can be extended in the future
 
+- The API needs to be renamed as Chrome has released a completely unrelated API with [the same name](https://developer.mozilla.org/en-US/docs/Web/API/Keyboard_API). It is a well-known fact that naming things is [a hard computer science problem](https://martinfowler.com/bliki/TwoHardThings.html)
+
 Rewards:
 
 - Potentially get your code into a _huge_ open source project used by hundreds of millions of people
