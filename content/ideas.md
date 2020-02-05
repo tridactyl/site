@@ -49,7 +49,7 @@ Prerequisites:
 
 - Some experience with any programming language
 
-We briefly explored this in the past - this [pull request](https://github.com/tridactyl/tridactyl/pull/1683) could be a good place for interested students to start
+We briefly explored this in the past - this [pull request](https://github.com/tridactyl/tridactyl/pull/1683) could be a good place for interested students to start.
 
 
 Potential mentors: glacambre, saulrh, bovine3dom
