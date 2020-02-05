@@ -58,7 +58,7 @@ Potential mentors: glacambre, saulrh, bovine3dom
 
 Tridactyl is a keyboard-driven interface for Firefox. The most common complaint amongst our users is that Tridactyl cannot accept commands while web pages are loading, while the Firefox UI is focused, or while a "privileged" page such as "about:preferences" is being used.
 
-A simple extension to the WebExtension API would allow Tridactyl to listen for key-events in these scenarios. [Work was started](https://github.com/tridactyl/keyboard-api) on such an API a few years ago. Mozilla, in principle, accepted that such an API could be merged into Firefox.
+A simple extension to the WebExtension API would allow Tridactyl to listen for key-events in these scenarios. [Work was started](https://github.com/tridactyl/keyboard-api) on such an API a few years ago. Mozilla, in principle, accepted that such an API could be merged into Firefox. Enough time has passed, however, that consensus will have to be rebuilt with Mozilla about both the detail and the broad structure of the API. In the event that agreement cannot be reached with Mozilla regarding the new API, it could still be used with Tridactyl in Developer, Nightly and custom builds of Firefox.
 
 Such an API would be useful for all extensions like Tridactyl.
 
