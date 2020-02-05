@@ -20,9 +20,15 @@ The Long Description may include [limited Markdown](https://developers.google.co
 
 > # A browser extension for programmers
 > 
-> Our extension for Firefox, Tridactyl, is used by about 10,000 users every day. It aims to make controlling Firefox more like controlling Vim, a popular text editor. We aim to make as much as possible within the browser programmable. Our users have, for example, created keyboard shortcuts to clone a project they are viewing on GitHub and open a terminal in that directory.
+> Our extension for Firefox, Tridactyl, is used by about 10,000 users every day. It aims to make controlling Firefox more like controlling Vim, a popular text editor. We aim to make as much as possible within the browser programmable. Our users have, for example, created keyboard shortcuts to clone a project they are viewing on GitHub and open a terminal in that directory; an intrepid developer added a Windows 98 theme for Hallowe'en.
 > 
-> Our users are generally skilled programmers who want to have more control over their browser.
+> The extension is written in TypeScript, a variant of JavaScript. The nature of WebExtensions means that they are inherently asynchronous and multi-process; we have lots of interesting software engineering problems in that area.
+> 
+> We also offer real-world experience with dealing with APIs (potentially across multiple platforms), which offer the added challenge of, amongst other things, trying to understand if a bug is in your own code or on the other side of the API. Writing concise bug reports with the minimum required to reproduce a bug is itself a worthwhile skill. Testing code that relies on an API can also be tricky; we use selenium and continuous integration.
+> 
+> Tridactyl is also interesting because it is used by thousands of users for several hours a day every day. It is therefore important that changes we make are backwards compatible to avoid breaking people's workflows. It could be a good introduction to refactoring a live project.
+> 
+> Our users are generally skilled programmers who want to have more control over their browser. This means that we have a high proportion of users who contribute code to Tridactyl (roughly 1% of users). This gives Tridactyl the feel of a much larger project as the code has been written by about a hundred different people.
 
 ## Proposals
 
@@ -98,10 +104,10 @@ Enter tags that students can select (one) from and apply to their own proposals 
 
 ### Why does your org want to participate in Google Summer of Code? (1000 chars)
 
-> We'd like to get one or two regular contributors. We have lots of ideas for cool things that could be done with the project but haven't had much time to do them recently.
->
-> Tridactyl is slightly odd in that it is software used in the real-world by thousands of users, but it has a high ratio of users to contributors (roughly 1% of users have contributed code). This gives it the feel of a much larger software project in terms of its code without some of the overheads that usually come with those large software projects such as very rigid release cycles. We think Tridactyl could usefully expand the diversity of the types of organisations available through GSoC.
->
+> We'd like to get one or two regular new contributors. We have lots of ideas for cool things that could be done with the project but haven't had much time to do them recently.
+> 
+> We think Tridactyl could usefully expand the diversity of the types of organisations available through GSoC. It is software used in the real-world by thousands of users, but it has a high ratio of users to contributors (roughly 1% of users have contributed code). It has feel of a much larger software project in terms of its code without some of the overheads that usually come with it such as very rigid release cycles.
+> 
 > The developers of Tridactyl have found its development to be a very instructive and rewarding experience in organisation, communication and developing code as a team. We want as many people as possible to also have this experience. Participation in GSoC seems like a good way to allow students to do this in a way that makes it affordable for them regardless of their backgrounds.
 
 ### How will you keep mentors engaged with their students? (1000 chars)
@@ -109,29 +115,29 @@ Enter tags that students can select (one) from and apply to their own proposals 
 > We have a private chatroom for the mentors and key developers. We'll ensure that the mentors give brief reports on their students in this chat room every week or so.
 > 
 > We will make sure that mentors are not pressured to take on students and projects that they are not very interested in. We expect that this will help to ensure that the mentors are enthusiastic and want to see the students successfully complete their projects.
->
+> 
 > Our prospective mentors have been informed that they should expect to spend about 5 hours a week mentoring their students in terms of meetings, reviewing code and general communication.
 
 ### How will you help your students stay on schedule to complete their projects? (1000 chars)
 
-> We will encourage them to make use of "issues" and "milestones" on GitHub. With the students, we will set deadlines for small units of work so that it will become apparent early on if problems have arisen.
+> We will encourage them to make use of "issues" and "milestones" on GitHub. With the students, mentors will set deadlines for small units of work so that it will become apparent early on if problems have arisen. We will expect students to "code in the open", committing their work to their branches multiple times a day, presenting it for review in manageable chunks of at most ~200 LoC. Mentors will have weekly one-on-one semi-formal meetings with their students, ideally over video but in a real-time chatroom or email depending on the student's wishes. We hope by providing regular opportunities for mini "failures" any large failures will be easy to foresee and address before they become inevitable.
 > 
-> Mentors will have weekly one-on-one semi-formal meetings with their students, ideally over video but in a real-time chatroom or email depending on the student's wishes. Mentors will only mentor projects they personally wish to see completed so we hope that their enthusiasm will be infectious.
+> Mentors will only mentor projects they personally wish to see completed so we hope that their enthusiasm will be infectious.
 > 
-> Finally, each student-mentor pair will have a backup mentor in case there is a problem with the first.
+> Finally, each student-mentor pair will have at least one backup mentor in case there is a problem with the first.
 
 ### How will you get your students involved in your community during GSoC? (1000 chars)
 
 > We will invite all of the students to our public chat room and encourage them to submit their work through pull requests and organise themselves by filing issues in public.
 > 
-> If the developers meet up in person throughout the course of the summer the students will be invited to this too. We previously held a week-long retreat which was a great success.
+> If the developers meet up in person throughout the course of the summer the students will be invited to this too. We previously held a week-long retreat, funded by donations, where the key developers met in person at a country house (with WiFi!) and worked on Tridactyl together. It was a great success.
 
 ### How will you keep students involved with your community after GSoC ends? (1000 chars)
 
 > The students will be encouraged to "watch" the GitHub repository and take ownership of their code should issues arise in the future. We hope that they will naturally stay in the chat room and answer newcomers questions as they become experts in our project.
 > 
-> The students will also be encouraged to use Tridactyl. 
->
+> The students will also be encouraged to use Tridactyl.
+> 
 > If Tridactyl's funding permits and the students are interested, it is hoped that they will want to attend any future in-person Tridactyl gatherings.
 
 
