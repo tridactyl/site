@@ -42,6 +42,7 @@ Enter tags that students can select (one) from and apply to their own proposals 
 >     
 >     - An introduction, telling us about yourself and your background (what you are studying, previous experience you have, any URLs you can give us linking to your work)
 >     - A brief summary of your proposal in your own words in a handful of sentences
+>     - A link to a pull request you have made to Tridactyl
 >     - A sketch of the design for your proposal in a few sentences, perhaps with some pseudocode
 >     - A schedule for what you want to have done by when - bonus points for referring to the [GSoC timeline](https://summerofcode.withgoogle.com/how-it-works/#timeline)
 >         - these "milestones" should be fairly concrete, e.g. "tests are written" and "tests pass", not "code is about half finished"
