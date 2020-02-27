@@ -75,7 +75,6 @@ hr {
     .wrap {
       padding: 1rem;
       width: 100%; } }
-
 .tag-container {
   display: flex;
   flex-direction: row;
@@ -127,7 +126,6 @@ hr {
   @media screen and (max-width: 736px) {
     #splash {
       width: 90%; } }
-
 .big-link {
   font-family: "Didact Gothic", "sans serif";
   font-size: 3rem;
@@ -240,7 +238,6 @@ hr {
   @media screen and (max-width: 736px) {
     .grid {
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); } }
-
 .grid > div {
   background-color: transparent;
   overflow: hidden; }

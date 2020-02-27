@@ -4,6 +4,8 @@ date: 2020-01-30T14:56:08Z
 draft: false
 ---
 
+**NB: Unfortunately, Google could not find room for Tridactyl in GSoC 2020**. We would still be happy for anyone to take up any of the projects below, with the caveat that we wouldn't be able to pay them. An invitation (and subsidised travel) to the next Tridactyl retreat would probably be the best we could do.
+
 Tridactyl is a big project with lots of interesting areas where students could make a contribution. This page lists some of the ideas the maintainers have had. Most of them are projects we ourselves would like to undertake but have not had the time to dedicate to them.
 
 General prerequisites for all applicants:
