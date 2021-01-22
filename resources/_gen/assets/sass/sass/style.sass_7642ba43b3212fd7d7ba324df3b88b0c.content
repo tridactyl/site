@@ -22,9 +22,13 @@ body {
   align-items: center;
   opacity: 1; }
 
+header {
+  padding: 6em 1em 1em 0; }
+  @media screen and (max-width: 736px) {
+    header {
+      padding: 3em 0; } }
 h1, h2, h3 {
   margin-bottom: 0.5em;
-  text-align: center;
   font-family: 'Didact Gothic', sans-serif;
   opacity: 0.6; }
 
@@ -37,8 +41,7 @@ ul {
   list-style-type: none; }
 
 p {
-  display: inline;
-  opacity: 0.8; }
+  display: inline; }
 
 a {
   color: #cccccc;
@@ -51,14 +54,6 @@ a {
   a:active {
     color: #cccccc; }
 
-button {
-  padding: 20px;
-  border: 0px;
-  border-radius: 5px;
-  background: #fff; }
-  button:hover {
-    box-shadow: 5px 5px #111; }
-
 hr {
   margin: 1rem 0;
   background-color: transparent;
@@ -67,14 +62,16 @@ hr {
   border-width: 1px;
   opacity: 0.3; }
 
+nav {
+  margin: 1em auto; }
+
 .wrap {
   margin: 0 auto;
-  margin-top: 6rem;
-  width: 45%; }
+  width: 45%;
+  max-width: 64em; }
   @media screen and (max-width: 736px) {
     .wrap {
-      padding: 1rem;
-      width: 100%; } }
+      width: 90%; } }
 .tag-container {
   display: flex;
   flex-direction: row;
@@ -86,7 +83,7 @@ hr {
   position: relative;
   bottom: 0; }
 
-.section {
+.flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,7 +94,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 3rem;
   text-align: center; }
 
 .footer {
@@ -109,7 +105,7 @@ hr {
   background-color: transparent;
   position: relative;
   bottom: 0;
-  padding: 3rem 1rem;
+  padding: 1rem;
   font-family: "Didact Gothic", "sans serif";
   font-size: 1rem;
   line-height: 1em;
@@ -119,13 +115,8 @@ hr {
     display: contents; }
 
 #splash {
-  margin: auto 0;
-  height: 100vh;
-  width: 45%;
-  overflow: hidden; }
-  @media screen and (max-width: 736px) {
-    #splash {
-      width: 90%; } }
+  min-height: calc(100vh - 6em); }
+
 .big-link {
   font-family: "Didact Gothic", "sans serif";
   font-size: 3rem;
@@ -140,25 +131,32 @@ hr {
   line-height: 3rem;
   margin-bottom: 2rem; }
 
-#content {
-  margin: 2rem 0;
+article {
+  width: 100%;
   line-height: 2em;
   letter-spacing: 2px; }
-  #content div {
+  article div {
     width: 100%;
     height: 100%;
     margin-bottom: 1em; }
-  #content h1, #content h2, #content h3 {
+  article h1, article h2, article h3 {
     margin: 1em 0em;
     text-align: left; }
-  #content p {
+  article .anchor-link > a {
+    border-bottom: none;
+    color: #fff; }
+    article .anchor-link > a:hover > .pilcrow {
+      display: inline; }
+  article span.pilcrow {
+    display: none; }
+  article p {
+    display: block;
     margin-bottom: 1em;
-    line-height: 1.8;
-    letter-spacing: 1.5px;
-    opacity: 0.8; }
-  #content .highlight {
+    line-height: 1.6;
+    letter-spacing: 1.5px; }
+  article .highlight {
     width: 100%; }
-  #content pre {
+  article pre {
     line-height: 2rem;
     border-radius: 3px;
     padding: 1rem;
@@ -166,63 +164,63 @@ hr {
     background-color: #000004;
     width: 100%;
     margin-bottom: 1em; }
-  #content pre > code {
+  article pre > code {
     border: none; }
-  #content code {
+  article code {
     font-size: 0.9rem;
     font-family: 'Source Code Pro', monospace;
     padding: 0.1rem;
     border-radius: 3px;
     border: 1px solid #cccccc; }
-  #content img {
+  article img {
     width: 100%;
     max-width: 100%;
     display: block;
     margin: 2rem auto;
     opacity: 1; }
-  #content blockquote {
+  article blockquote {
     background-color: #cccccc;
     color: #39424E;
     padding: 2rem;
     margin: 2rem 1rem 2rem 1rem;
     border-radius: 3px; }
-    #content blockquote a {
+    article blockquote a {
       color: #111; }
-    #content blockquote ul {
+    article blockquote ul {
       margin-top: 1rem; }
-    #content blockquote li {
+    article blockquote li {
       list-style: disc; }
-  #content table {
+  article table {
     width: 100%;
     border-collapse: collapse;
     margin: 1rem 0;
     overflow-x: auto; }
-    #content table th {
+    article table th {
       font-size: 0.9rem; }
-    #content table td, #content table th {
+    article table td, article table th {
       padding: 2px 5px;
       text-align: center;
       border: 1px solid #cccccc; }
-  #content li {
+  article li {
     line-height: 2;
     padding-left: 0.4rem; }
-    #content li:last-child {
+    article li:last-child {
       margin-bottom: 1rem; }
-  #content ul {
+  article ul {
     list-style: disc outside;
     padding-left: 2rem; }
-  #content ol {
+  article ol {
     list-style: decimal outside;
     padding-left: 2rem; }
-  #content .gist {
-    width: 100%; }
-    #content .gist td, #content .gist th {
+  article .gist {
+    max-width: 100%; }
+    article .gist td, article .gist th {
       text-align: left;
       border: 0; }
-    #content .gist .gist-meta {
+    article .gist .gist-meta {
       background-color: transparent;
       color: #fff; }
-      #content .gist .gist-meta a {
+      article .gist .gist-meta a {
         color: #fff; }
 
 .tag {
@@ -231,6 +229,7 @@ hr {
   opacity: 0.6; }
 
 .grid {
+  margin: 1em auto;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -238,6 +237,10 @@ hr {
   @media screen and (max-width: 736px) {
     .grid {
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); } }
+  .grid.keep-aspect-ratio {
+    grid-auto-rows: auto;
+    place-items: start; }
+
 .grid > div {
   background-color: transparent;
   overflow: hidden; }
@@ -248,11 +251,37 @@ hr {
   object-fit: cover;
   opacity: 1; }
 
+.grid > div > a {
+  border-bottom: none; }
+
 .grid > div > a > img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   opacity: 1; }
+
+.video {
+  position: fixed;
+  z-index: -1; }
+
+#overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1; }
+
+@media (min-aspect-ratio: 16/9) {
+  .video {
+    width: 100%;
+    height: auto; } }
+
+@media (max-aspect-ratio: 16/9) {
+  .video {
+    width: auto;
+    height: 100%; } }
 
 .go-left {
   justify-content: flex-start;
