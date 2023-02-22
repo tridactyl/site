@@ -2,6 +2,10 @@
 
 # Nicked from https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script
 
+# First time setup:
+# git submodule init
+# git submodule update
+
 # If a command fails then the deploy stops
 set -e
 
