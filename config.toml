@@ -40,5 +40,9 @@ pygmentsCodefences       = true
     link = "/ideas"
     text = "google summer of code ideas page"
 
+[[params.mainMenu]]
+    link = "/build/static/docs/modules/_src_excmds_.html"
+    text = "docs"
+
 [imaging]
     quality = 75
