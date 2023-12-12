@@ -1,4 +1,9 @@
-# Tridactyl Tips & Tricks 1: Hint mode CSS selectors
+---
+title: "Tips & Tricks 1: Hint mode CSS selectors"
+date: "Thu, 19 Nov 2020 14:42:43 +0100"
+draft: false
+---
+
 
 Hi!
 
