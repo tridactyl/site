@@ -1,6 +1,6 @@
 ---
 title: "Tips & Tricks 2: custom themes"
-date: "31 Jan 2021 12:00:00 +0100"
+date: "2021-01-31T12:00:00+01:00"
 draft: false
 ---
 

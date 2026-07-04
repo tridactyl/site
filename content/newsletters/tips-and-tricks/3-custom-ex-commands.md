@@ -1,6 +1,6 @@
 ---
 title: "Tips & Tricks 3: custom ex-commands"
-date: "2 Mar 2021 12:00:00 +0100"
+date: "2021-03-02T12:00:00+01:00"
 draft: false
 ---
 

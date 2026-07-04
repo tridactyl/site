@@ -1,6 +1,6 @@
 ---
 title: "Tips & Tricks 4: making keybinds"
-date: "6 May 2021 12:00:00 +0000"
+date: "2021-05-06T12:00:00Z"
 draft: false
 ---
 
