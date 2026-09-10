@@ -11,7 +11,7 @@ pygmentsCodefences       = true
 [params]
     dateform             = "Mon Jan 02, 2006"
     dateformfull         = "Mon Jan 2 2006 15:04:05 GMT"
-    favicon              = "" # "sam.ico" # Todo: replace this with Tridactyl icon
+    favicon              = "Tridactyl_32px.png" # "sam.ico" # Todo: replace this with Tridactyl icon
     homepage             = "home"                           # What to call the home page link
     footerText           = "Tridactyl - this site is licensed under BSD-3 - source available at [GitHub](https://github.com/tridactyl/site)"
 
